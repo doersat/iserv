@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://3oteb5d18wqx"]
+
+[ext_resource type="PackedScene" uid="uid://b5pt0tgm3yd4m" path="res://пав.tscn" id="1_pwr6x"]
+[ext_resource type="PackedScene" uid="uid://bjtdnyu4amhux" path="res://dfg.tscn" id="2_58esn"]
+[ext_resource type="Script" uid="uid://clsd8nvude2yo" path="res://пав.gd" id="3_0p62m"]
+
+[node name="Node2D" type="Node2D" unique_id=675771655]
+
+[node name="StaticBody2D" parent="." unique_id=148790398 instance=ExtResource("1_pwr6x")]
+position = Vector2(321, 8)
+
+[node name="StaticBody2D2" parent="." unique_id=1281163468 instance=ExtResource("1_pwr6x")]
+position = Vector2(549, 292)
+
+[node name="Node2D" parent="." unique_id=1906088028 instance=ExtResource("2_58esn")]
+position = Vector2(510, 9)
+
+[node name="StaticBody2D" parent="Node2D" unique_id=1027604204 instance=ExtResource("1_pwr6x")]
+position = Vector2(-227, 164)
+
+[node name="StaticBody2D3" parent="." unique_id=1702205724 instance=ExtResource("1_pwr6x")]
+position = Vector2(555, 79)
+script = ExtResource("3_0p62m")
+
+[node name="StaticBody2D4" parent="." unique_id=1839467237 instance=ExtResource("1_pwr6x")]
+position = Vector2(-344, 428)
+scale = Vector2(7.040002, 1)
